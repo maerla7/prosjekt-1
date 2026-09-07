@@ -7,6 +7,7 @@ $svar=$_POST ["svar"];
 
 if (!$svar)
   {print ("Du har ikke svart p&aring; sp&oslash;rsm&aring;let");}
+
 else if ($svar == "ja" or "JA" or "Ja")
 
   {print ("Gratulerer! Du er student:)");}
@@ -15,6 +16,6 @@ else if ($svar == "nei" or "NEI" or "Nei")
   {print ("Taper, du er ikke student!!");}
 
 else 
-  {print ("Du har verken svar ja eller nei p&aring om du er studnet:(");}
+  {print ("Du har verken svart ja eller nei p&aring om du er studnet:(");}
 
 ?>
