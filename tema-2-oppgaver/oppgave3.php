@@ -5,7 +5,7 @@
 */
 $svar=$_POST ["svar"];
 
-{print ("$svar")}
+print ($svar);
 
 if (!$svar)
   {print ("Du har ikke svart p&aring; sp&oslash;rsm&aring;let");}
