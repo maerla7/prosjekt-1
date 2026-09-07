@@ -1,12 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>min første nettside</title>
+    <title>Eksempel 1</title>
   </head>
   <body>
-    <h1>hva skjera</h1>
-    <p>jeg heter maja og dette er min første nettside:D</p>
+    <h3>Eksempel 1</h3>
+
+    <form
+      method="post"
+      action="tema01/eksempler/eksempel-1.php"
+      id="eksempel1"
+      name="eksempel1"
+    >
+      Fornavn <input type="text" id="fornavn" name="fornavn" required /> <br />
+      Etternavn <input type="text" id="etternavn" name="etternavn" required />
+      <br />
+      <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
+      <input type="reset" value="Nullstill" name="nullstill" id="nullstill" />
+      <br />
+    </form>
   </body>
 </html>
