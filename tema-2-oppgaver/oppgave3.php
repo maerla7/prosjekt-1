@@ -16,6 +16,6 @@ else if ($svar == "nei" or $svar == "NEI" or $svar == "Nei")
   {print ("Taper, du er ikke student!!");}
 
 else 
-  {print ("Du har verken svart ja eller nei p&aring om du er student:( Du har svart $svar ?");}
+  {print ("Du har verken svart ja eller nei p&aring om du er student:( Du har svart '$svar'?");}
 
 ?>
