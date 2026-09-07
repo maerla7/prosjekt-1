@@ -11,6 +11,7 @@ if (!$svar)
 else if ($svar == "ja")
 
 {print ("Gratulerer! Du er student:)");}
+
 else if ($svar == "nei")
   {print ("Taper! Du er ikke student!!");}
 else 
