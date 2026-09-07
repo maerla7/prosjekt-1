@@ -4,7 +4,7 @@
 /*    Programmet skriver ut de 2 tallene og summen og differansen av/mellom tallene
 */
 $tall1=$_POST ["tall1"];
-$tall2=$_POST ("tall2");
+$tall2=$_POST ["tall2"];
 
 $summen=$tall1 + $tall2;
 $differansen=$tall1 - $tall2;
