@@ -10,10 +10,10 @@ print ($svar);
 if (!$svar)
   {print ("Du har ikke svart p&aring; sp&oslash;rsm&aring;let");}
 
-else if ($svar == "ja" or "JA" or "Ja")
+else if ($svar == "ja" or $svar == "JA" or $svar == "Ja")
   {print ("Gratulerer! Du er student:)");}
 
-else if ($svar == "nei" or "NEI" or "Nei")
+else if ($svar == "nei" or $svar == "NEI" or $svar == "Nei")
   {print ("Taper, du er ikke student!!");}
 
 else 
