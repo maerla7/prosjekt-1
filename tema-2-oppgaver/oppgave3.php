@@ -9,7 +9,6 @@ if (!$svar)
   {print ("Du har ikke svart p&aring; sp&oslash;rsm&aring;let");}
 
 else if ($svar == "ja" or "JA" or "Ja")
-
   {print ("Gratulerer! Du er student:)");}
 
 else if ($svar == "nei" or "NEI" or "Nei")
