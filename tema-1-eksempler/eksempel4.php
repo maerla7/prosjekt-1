@@ -4,8 +4,8 @@
 /*    Programmet skriver ut de 2 tallene og summen og differansen av/mellom tallene
 */
 
-$tall1=$_POST ("tall1");
-$tall2=$_POST ("tall2"); /* variable gitt verdier fra feltene i HTML-skjemaet */
+$tall1=$_POST ["tall1"];
+$tall2=$_POST ["tall2"]; /* variable gitt verdier fra feltene i HTML-skjemaet */
 
 $sum=$tall1 + $tall2;  /* beregning av summen utført  */
 $differanse=$tall1 - $tall2;  /* beregning av differansen utført  */
