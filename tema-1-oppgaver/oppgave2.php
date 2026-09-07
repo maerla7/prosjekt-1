@@ -1,4 +1,4 @@
-<?php    /* Eksempel 2 */
+<?php    /* Oppgave 2 */
 /*
 /*    Programmet mottar fra et HTML-skjema et fornavn og et etternavn ved POST-metoden
 /*    Programmet skriver ut en "god dag"-melding med personens navn 

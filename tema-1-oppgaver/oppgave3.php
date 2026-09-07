@@ -1,4 +1,4 @@
-<?php    /* Eksempel 3 */
+<?php    /* Oppgave 3 */
 /*
 /*    Programmet mottar 2 tall fra et HTML-skjema ved POST-metoden
 /*    Programmet skriver ut de 2 tallene og summen og differansen av/mellom tallene
