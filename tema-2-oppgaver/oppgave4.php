@@ -10,16 +10,16 @@ $barn=$_POST ["barn"];
 if (!$gift or !$barn)
   {print ("Du har ikke svart p&aring; begge sp&oslash;rsm&aring;lene");}
 
-else if ($gift == "ja" or $gift =="JA" or $gift == "Ja" and $barn == "ja" or $barn == "JA" or $barn == "Ja")
-  {print ("Gratulerer, Du har barn, og er gift!");}
+else if ($gift == "ja" || $gift =="JA" || $gift == "Ja" && $barn == "ja" || $barn == "JA" || $barn == "Ja")
+  {print ("Gratulerer, du har barn og er gift!");}
 
-else if ($gift == "nei" or $gift =="NEI" or $gift == "Nei" and $barn == "nei" or $barn == "NEI" or $barn == "Nei")
+else if ($gift == "nei" || $gift =="NEI" || $gift == "Nei" && $barn == "nei" || $barn == "NEI" || $barn == "Nei")
   {print ("Uffda, du har ingen barn og er ikke gift:(");}
 
-else if ($gift == "nei" or $gift =="NEI" or $gift == "Nei" and $barn == "ja" or $barn == "JA" or $barn == "Ja")
+else if ($gift == "nei" || $gift =="NEI" || $gift == "Nei" && $barn == "ja" || $barn == "JA" || $barn == "Ja")
   {print ("Jaja, du har i det minste barn:)");}
 
-else if ($gift == "ja" or $gift =="JA" or $gift == "Ja" and $barn == "nei" or $barn == "NEI" or $barn == "Nei")
+else if ($gift == "ja" || $gift =="JA" || $gift == "Ja" && $barn == "nei" || $barn == "NEI" || $barn == "Nei")
 {print ("Jaja, du er i det minste gift:)");}
 
 else 
