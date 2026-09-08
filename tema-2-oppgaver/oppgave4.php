@@ -4,8 +4,8 @@
 /*      og et svar på spørsmålet "Hvor gammel er du ?"
 /*    Programmet sjekker hva som er svart på spørsmålene og skriver ut en passende melding*/
 
-$svarg=$_POST ["gift"];
-$svarb=$_POST ["barn"];
+$gift=$_POST ["gift"];
+$barn=$_POST ["barn"];
 
 if (!$gift or !$barn)
   {print ("Du har ikke svart p&aring; begge sp&oslash;rsm&aring;lene");}
