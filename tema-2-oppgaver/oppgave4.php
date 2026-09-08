@@ -4,22 +4,22 @@
 /*      og et svar på spørsmålet "Hvor gammel er du ?"
 /*    Programmet sjekker hva som er svart på spørsmålene og skriver ut en passende melding*/
 
-$gift=$_POST ["gift"];
-$barn=$_POST ["barn"];
+$gift=isset ($_POST) ["gift"] ? strotolower ($_POST["gift"]) : "";
+$barn=isset ($_POST) ["barn"] ? strotolower ($_POST["barn"]) : "";
 
 if (!$gift or !$barn)
   {print ("Du har ikke svart p&aring; begge sp&oslash;rsm&aring;lene");}
 
-else if ($gift == "ja" || $gift =="JA" || $gift == "Ja" && $barn == "ja" || $barn == "JA" || $barn == "Ja")
+else if ($gift == "ja" && $barn == "ja")
   {print ("Gratulerer, du har barn og er gift!");}
 
-else if ($gift == "nei" || $gift =="NEI" || $gift == "Nei" && $barn == "nei" || $barn == "NEI" || $barn == "Nei")
+else if ($gift == "nei" && $barn == "nei")
   {print ("Uffda, du har ingen barn og er ikke gift:(");}
 
-else if ($gift == "nei" || $gift =="NEI" || $gift == "Nei" && $barn == "ja" || $barn == "JA" || $barn == "Ja")
+else if ($gift == "nei" && $barn == "ja" )
   {print ("Jaja, du har i det minste barn:)");}
 
-else if ($gift == "ja" || $gift =="JA" || $gift == "Ja" && $barn == "nei" || $barn == "NEI" || $barn == "Nei")
+else if ($gift == "ja" && $barn == "nei")
 {print ("Jaja, du er i det minste gift:)");}
 
 else 
