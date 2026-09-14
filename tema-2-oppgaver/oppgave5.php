@@ -11,8 +11,8 @@ if ($tall3 == 1)
 else if ($tall3 == 2)
 
  {
-  $sum=$tall1-$tall2
- print ("$sum")
+  $sum=$tall1-$tall2;
+    print ("$sum");
  } 
 
 ?>
