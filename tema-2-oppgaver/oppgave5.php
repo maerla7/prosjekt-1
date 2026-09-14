@@ -8,5 +8,11 @@ if ($tall3 == 1)
   
     print ("$sum");
   }  
+else if ($tall3 == 2)
+
+ {
+  $sum=$tall1-$tall2
+ print ("$sum")
+ } 
 
 ?>
