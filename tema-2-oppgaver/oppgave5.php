@@ -24,7 +24,7 @@ else if ($tall3==3)
   else if ($tall3==4)
     {
       $sum=$tall1/$tall2;
-      print ("tall1 er $tall1 og tall2 er $tall2. Hvis vi deler $tal1 med $tall2 får vi $sum");
+      print ("tall1 er $tall1 og tall2 er $tall2. Hvis vi deler $tall1 med $tall2 får vi $sum");
     }
 
     else 
