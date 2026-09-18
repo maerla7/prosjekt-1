@@ -8,11 +8,27 @@ if ($tall3 == 1)
   
     print ("$sum");
   }  
-else if ($tall3 == 2)
 
+else if ($tall3 == 2)
  {
   $sum=$tall1-$tall2;
     print ("$sum");
  } 
 
+else if ($tall3==3)
+  {
+    $sum=$tall1*$tall2;
+  print ("$sum");
+  }
+
+  else if ($tall3==4)
+    {
+      $sum=$tall1/$tall2;
+      print ("$sum");
+    }
+
+    else 
+      {
+        print ("Du har ikke skrevet noen tall?");
+      }
 ?>
