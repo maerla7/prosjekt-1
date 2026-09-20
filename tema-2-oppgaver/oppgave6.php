@@ -7,7 +7,7 @@ print ("Tallene er like");
 }
  
 else if ($tall1!=$tall2)
-  {print ("Tallene er ikke like, tall1 mangler");}
+  {print ("Tallene er ikke like");}
 
 else if ($tall1 > $tall2)
   {print ("Tall1 er st$oslash;re enn tall2");}
