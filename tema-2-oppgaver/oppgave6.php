@@ -1,17 +1,9 @@
 <?php
 $tall1=$_POST ["tall1"];
 $tall2=$_POST ["tall2"];
- if ($tall1==$tall2)
-  {
-    print ("Tall 1 er $tall1 og tall 2 er $tall2. Tallene er like");
-  }
  
-else if ($tall1!=$tall2)
-  {
-    print ("Tall 1 er $tall1 og tall 2 er $tall2. Tallene er ikke like");
-  }
 
-else if ($tall1>$tall2)
+if ($tall1>$tall2)
   {
     print ("Tall 1 er $tall1 og tall 2 er $tall2. Tall1 er mindre enn tall2");
   }
