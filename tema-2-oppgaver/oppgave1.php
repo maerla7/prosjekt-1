@@ -7,7 +7,8 @@
     <h3>Oppgave 1</h3>
 
     <form method="post" action="" id="oppgave" name="oppgave">
-      Hva er 3 ganger 3? <input type="text" id="svar" name="svar" required />
+      Hva er 3 ganger 3? <br/>
+      <input type="text" id="svar" name="svar" required />
       <br />
       <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
       <input type="reset" value="Nullstill" id="nullstill" name="nullstill" />
