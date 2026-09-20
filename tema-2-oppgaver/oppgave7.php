@@ -35,14 +35,14 @@ if ($tall1==$tall2 && $tall3)
             {
               print ("Tall 3 er mindre enn tall 2 og tall 1");
             }
-{
-  echo compare($tall1, $tall2, "Tall 1", "Tall 2") . "<br>";
-        echo compare($tall1, $tall3, "Tall 1", "Tall 3") . "<br>";
-        echo compare($tall2, $tall3, "Tall 2", "Tall 3") . "<br>";
-}
+
   else 
     {
       print ("Kan ikke utføre fordi du kødder med boksene, dust..");
     }
-    
+    {
+  echo compare($tall1, $tall2, "Tall 1", "Tall 2") . "<br>";
+        echo compare($tall1, $tall3, "Tall 1", "Tall 3") . "<br>";
+        echo compare($tall2, $tall3, "Tall 2", "Tall 3") . "<br>";
+}
 ?>
