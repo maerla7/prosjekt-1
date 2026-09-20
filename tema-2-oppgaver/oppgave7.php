@@ -27,14 +27,18 @@ if ($tall1==$tall2 && $tall3)
         {
           print ("Tall 2 er større enn tall 1 og tall 3");
         }
+        else if ($tall3>$tall2 && $tall1)
+          {
+            print ("Tall 3 er større enn tall 2 og tall 1");
+          }
+          else if ($tall3<$tall2 && $tall1)
+            {
+              print ("Tall 3 er mindre enn tall 2 og tall 1");
+            }
 
   else 
     {
       print ("Kan ikke utføre fordi du kødder med boksene, dust..");
     }
-    {
-       echo sammenlign($tall1, $tall2, "Tall 1", "Tall 2") . "<br>";
-        echo sammenlign($tall1, $tall3, "Tall 1", "Tall 3") . "<br>";
-        echo sammenlign($tall2, $tall3, "Tall 2", "Tall 3") . "<br>";
-    }
+    
 ?>
