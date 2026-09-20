@@ -15,6 +15,18 @@ if ($tall1==$tall2 && $tall3)
     {
       print ("Tall 1 er mindre enn tall 2 og tall 3");
     } 
+    else if ($tall1>$tall2 && $tall3)
+      {
+        print ("Tall 1 er større enn tall 2 og tall 3");
+      }
+    else if ($tall2<$tall1 && $tall3)
+      {
+        print ("Tall 2 er mindre enn tall 1 og tall 3");
+      }
+      else if ($tall2>$tall1 && $tall3)
+        {
+          print ("Tall 2 er større enn tall 1 og tall 3");
+        }
 
   else 
     {
