@@ -10,7 +10,7 @@ if ($tall1>$tall2)
 
 else if ($tall1<$tall2)
 {
-  print ("Tall 1 er $tall1 <br> Tall 2 er $tall2 <br> Tall 1 er større enn tall 2");
+  print ("Tall 1 er $tall1 <br> Tall 2 er $tall2 <br> Tall 1 er mindre enn tall 2");
 }
 
 else 
