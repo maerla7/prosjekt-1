@@ -11,6 +11,11 @@ if ($tall1==$tall2 && $tall3)
     print ("Alle tallene er like");
   }
 
+  else if ($tall1<$tall2 && $tall3)
+    {
+      print ("Tall 1 er mindre enn tall 2 og tall 3");
+    } 
+
   else 
     {
       print ("Kan ikke utføre fordi du kødder med boksene, dust..");
