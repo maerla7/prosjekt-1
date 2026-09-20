@@ -26,10 +26,10 @@ if (isset($_POST["fortsett"]))
 $svar=$_POST ["svar"];
 
 if ($svar == 9)
-  {print ("Riktig! 3 ganger 3 er 9 ");}
+  {print ("Riktig! <br> 3 ganger 3 er 9 ");}
 
 else
 
-  {print ("Feil. 3 ganger 3 er ikke $svar. 3 ganger 3 er 9.");}
+  {print ("Feil. <br> 3 ganger 3 er ikke $svar. <br> 3 ganger 3 er 9.");}
   }
 ?>
