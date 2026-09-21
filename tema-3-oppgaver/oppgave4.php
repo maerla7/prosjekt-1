@@ -6,7 +6,7 @@
 
 $antallDager=array (1=>31,28,31,30,31,30,31,31,30,31,30,31);
 
-print ("Antall dager i september er $antallDager[9] <br/> ");
+print ("Antall dager i september er $antallDager[9] <br/> <br/> ");
 
 for ($mnd=1; $mnd<=12; $mnd++)
   {
