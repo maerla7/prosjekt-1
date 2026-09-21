@@ -8,7 +8,7 @@ $tall3=$_POST ["tall3"];
 
 if ($tall1==$tall2 && $tall1==$tall3 && $tall2==$tall2)
   {
-    print ("Alle tallene er like");
+    print ("Alle tallene er like <br/>");
   }
 
   if ($tall1>$tall2)
@@ -21,10 +21,12 @@ if ($tall1==$tall2 && $tall1==$tall3 && $tall2==$tall2)
       }
 
       if ($tall1>$tall3)
-        {print ("Tall 1 er større enn tall 3 <br/>");}
+        {
+          print ("Tall 1 er større enn tall 3 <br/>");
+          }
       else 
         {
-          print ("Tall 1 er mindre enn tall 3");
+          print ("Tall 1 er mindre enn tall 3 <br/>");
         }
       
         if ($tall2>$tall3)
