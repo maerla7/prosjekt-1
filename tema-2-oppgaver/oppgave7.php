@@ -6,39 +6,34 @@ $tall3=$_POST ["tall3"];
   print ("Tall 1 er $tall1 <br> Tall 2 er $tall2 <br> Tall 3 er $tall3 <br>");
 }
 
-if ($tall1==$tall2 && $tall3)
+if ($tall1==$tall2 && $tall1==$tall3 && $tall2==$tall2)
   {
     print ("Alle tallene er like");
   }
 
-  else if ($tall1<$tall2 && $tall3)
+  if ($tall1>$tall2)
     {
-      print ("Tall 1 er mindre enn tall 2 og tall 3");
-    } 
-    else if ($tall1>$tall2 && $tall3)
-      {
-        print ("Tall 1 er større enn tall 2 og tall 3");
-      }
-    else if ($tall2<$tall1 && $tall3)
-      {
-        print ("Tall 2 er mindre enn tall 1 og tall 3");
-      }
-      else if ($tall2>$tall1 && $tall3)
-        {
-          print ("Tall 2 er større enn tall 1 og tall 3");
-        }
-        else if ($tall3>$tall2 && $tall1)
-          {
-            print ("Tall 3 er større enn tall 2 og tall 1");
-          }
-          else if ($tall3<$tall2 && $tall1)
-            {
-              print ("Tall 3 er mindre enn tall 2 og tall 1");
-            }
-
-  else 
-    {
-      print ("Kan ikke utføre fordi du kødder med boksene, dust..");
+      print ("Tall 1 er større enn tall 2 <br/>");
     }
+    else 
+      {
+        print ("Tall 1 er mindre enn tall 2 <br/>");
+      }
+
+      if ($tall1>$tall3)
+        {print ("Tall 1 er større enn tall 3 <br/>");}
+      else 
+        {
+          print ("Tall 1 er mindre enn tall 3");
+        }
+      
+        if ($tall2>$tall3)
+          {
+            print ("Tall 2 er større enn tall 3 <br/>");
+          }
+else 
+  {
+    print ("Tall 2 er mindre enn tall 3 <br/>");
+  }
 
 ?>
