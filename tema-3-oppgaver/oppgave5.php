@@ -13,7 +13,7 @@ print ("Hele settningen er: $tekst <br/> <br/>");
 
 print ("Fornavnet er: $fornavn <br/>");
 print ("Kallenavnet til $fornavn er: $kallenavn <br/>");
-print ("Studiet $kallenavn er: $studie <br/>");
+print ("Studiet $kallenavn går på er: $studie <br/>");
 print ("Nivået på studiet til $kallenavn er: $nivå <br/>");
 
 ?>
