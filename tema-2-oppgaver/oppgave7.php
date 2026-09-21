@@ -15,27 +15,39 @@ if ($tall1==$tall2 && $tall1==$tall3 && $tall2==$tall2)
     {
       print ("Tall 1 er større enn tall 2 <br/>");
     }
-    else 
+    elseif ($tall1<$tall2)
       {
         print ("Tall 1 er mindre enn tall 2 <br/>");
       }
+      else 
+        {
+          print ("Tall 1 er det samme som tall 2 <br/>");
+        }
 
       if ($tall1>$tall3)
         {
           print ("Tall 1 er større enn tall 3 <br/>");
           }
-      else 
+      elseif ($tall1<$tall3)
         {
           print ("Tall 1 er mindre enn tall 3 <br/>");
         }
+        else 
+          {
+            print ("Tall 1 er det samme som tall 3 <br/>");
+          }
       
         if ($tall2>$tall3)
           {
             print ("Tall 2 er større enn tall 3 <br/>");
           }
-else 
+elseif ($tall2<$tall3)
   {
     print ("Tall 2 er mindre enn tall 3 <br/>");
   }
+  else 
+    {
+      print ("Tall 2 er det samme som tall3 <br/>");
+    }
 
 ?>
