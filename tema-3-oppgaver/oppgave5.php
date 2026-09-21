@@ -1,6 +1,6 @@
 <?php
 
-$tekst="Maja;aka mj;it og ledelse;noobie";
+$tekst="Maja;mj;it og ledelse;noobie";
 
 $del=explode (";", $tekst);
 
