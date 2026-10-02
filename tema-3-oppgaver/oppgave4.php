@@ -4,12 +4,14 @@
 /*    Programmet skriver ut antall dager i hver måned
 */
 
-$antallDager=array (1=>31,28,31,30,31,30,31,31,30,31,30,31);
+$sum = 0;
 
-print ("Antall dager i september er $antallDager[9] <br/> <br/> ");
+for ($tall = 1; $tall <= 10; $tall++)
+{
+  $sum += $tall;
+}
 
-for ($mnd=1; $mnd<=12; $mnd++)
-  {
-    print ("Antall dager i måned nr $mnd er $antallDager[$mnd] <br/>");
-  }
+{
+  echo "Summen av tallene fra 1-10 er $sum";
+}
 ?>
