@@ -11,7 +11,7 @@ $gjennomsnitt = $sum / 10;
 
 
 {
-  echo "Summen av tallene fra 1-10 er $sum";
-  echo "Gjennomsnittet av tallene 1-10 er $gjennomsnitt";
+  echo "Summen av tallene fra 1-10 er: $sum <br>";
+  echo "Gjennomsnittet av tallene 1-10 er: $gjennomsnitt";
 }
 ?>
