@@ -9,7 +9,7 @@ $tall=1;
 for ($tall = 1; $tall <= 10; $tall++)
 
   {
-    echo "tall har kvadratet" . ($tall*$tall) . "<br>";
+    echo "$tall har kvadratet " . ($tall*$tall) . "<br>";
   }
 
   /*
