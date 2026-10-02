@@ -4,14 +4,23 @@
 /*    Programmet skriver ut de 3 navnene
 */
 
-$navn=array ("Maja","Mathea","Tuva","Gabi","Thea");
+$tall=1;
 
-print ("Det første navnet er $navn[0] <br/>");
+for ($tall = 1; $tall <= 10; $tall++)
+  {
+    echo $tall . " ";
+  }
 
-print ("Resten av navnene er <br/>");
+  echo "<br>";
 
-for ($nr=0; $nr<count($navn); $nr++)
-{
-  print ("$navn[$nr] <br/>");
-}
+for ($tall = 11; $tall <= 20; $tall++)
+  {
+    echo $tall . " ";
+  }
+echo "<br>";
+
+for ($tall = 21; $tall <= 30; $tall++)
+  {
+    echo $tall . " ";
+  }
 ?>
