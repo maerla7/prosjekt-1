@@ -1,19 +1,15 @@
 <?php
 
-$tekst="Maja;mj;it og ledelse;noobie";
+$sum = 0
+$gjennomsnitt = $sum / 10;
 
-$del=explode (";", $tekst);
+for ($tall = 1; $tall <= 10; $tall++)
+{
+  $sum += $tall;
+}
 
-$fornavn=$del[0];
-$kallenavn=$del[1];
-$studie=$del[2];
-$nivå=$del[3];
-
-print ("Hele settningen er: $tekst <br/> <br/>");
-
-print ("Fornavnet er: $fornavn <br/>");
-print ("Kallenavnet til $fornavn er: $kallenavn <br/>");
-print ("Studiet $kallenavn går på er: $studie <br/>");
-print ("Nivået på studiet til $kallenavn er: $nivå <br/>");
-
+{
+  echo "Summen av tallene fra 1-10 er $sum";
+  echo "Gjennomsnittet av tallene 1-10 er $gjennomsnitt";
+}
 ?>
