@@ -1,6 +1,6 @@
 <?php
 
-$tall1=$_POST ["tall"];
+$tall=$_POST ["tall"];
 
 if ($tall > 0)
   {
@@ -16,5 +16,5 @@ if ($tall > 0)
   else 
     {
       echo "Skriv inn et positivt tall uten decimaler";
-    }
+    } 
 ?>
