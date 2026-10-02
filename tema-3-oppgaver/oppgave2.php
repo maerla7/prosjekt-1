@@ -6,10 +6,10 @@
 
 $tall=1;
 
-while ($tall<=10)
+for ($tall = 1; $tall <= 10; $tall++)
+
   {
-    print ("$tall <br/>");
-    $tall++;
+    echo "tall har kvadratet" . ($tall*$tall) . "<br>";
   }
 
   /*
