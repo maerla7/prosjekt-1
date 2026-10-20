@@ -7,7 +7,7 @@ if (isset($_POST ["fortsett"]))
 
   include("db-tilkobling.php"); /* tilkobling til database-serveren utført og valg av database foretatt */
   
-  $sqlSetning="SELECT * FROM studium WHERE studiekode='$studiumkode';";
+  $sqlSetning="SELECT * FROM studium WHERE studiumkode='$studiumkode';";
   $sqlResultat=mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; hente data fra databasen");
   $anstallRader=mysqli_num_rows($sqlResultat);
 
