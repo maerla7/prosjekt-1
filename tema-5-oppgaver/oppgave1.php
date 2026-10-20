@@ -9,7 +9,7 @@
   
       $sqlSetning="SELECT * FROM studium WHERE studiumkode='$studiumkode';";
       $sqlResultat=mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; hente data fra databasen");
-      $anstallRader=mysqli_num_rows($sqlResultat);
+      $antallRader=mysqli_num_rows($sqlResultat);
 
       if ($antallRader!=0) /* studium er registrert fra før */
         {
