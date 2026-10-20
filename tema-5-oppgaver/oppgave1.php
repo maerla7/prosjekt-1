@@ -17,11 +17,11 @@ if (isset($_POST ["fortsett"]))
   }
 
 else {
-  $sqlSetning="INSERT INTO studium VALUES('$studiumkode', '$stidumnavn');";
+  $sqlSetning="INSERT INTO studium VALUES('$studiumkode', '$studiumnavn');";
 mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; registrere data i databasen");
                 /* SQL-setning sendt til database-serveren */
 
-           print ("F&oslash;lgende poststed er n&aring; registrert: $studiumkode $studiumnavn");     
+           print ("F&oslash;lgende studium er n&aring; registrert: $studiumkode $studiumnavn");     
 }
   }
 ?>
