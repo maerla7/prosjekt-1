@@ -13,7 +13,7 @@
 
       if ($antallRader!=0) /* studium er registrert fra før */
         {
-          print ("Studiumkoden er registrert fra f&slashr");
+          print ("Studiumkoden er registrert fra f&oslashr");
         }
 
         else 
