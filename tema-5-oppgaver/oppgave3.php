@@ -44,7 +44,7 @@ if (isset($_POST ["fortsett"]))
 
     if ($antallRader!=1)  /* det er ikke registrert*/
     {
-      print ("Studium eller emne finnes ikke");
+      print ("Emne finnes ikke");
     }
 
 else 
@@ -55,6 +55,25 @@ else
 
                 print ("Emne med emnekode $emnekode er n&aring; endret");
   }
+
+ $sqlSetning="SELECT * FROM studiumkode WHERE studiumkode='$studiumkode';";
+    $sqlResultat=mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; hente data fra databasen");
+    $antallRader=mysqli_num_Rows($sqlResultat);
+
+    if ($antallRader!=1)  /* det er ikke registrert*/
+    {
+      print ("Studium finnes ikke");
+    }
+
+else 
+  {
+    $sqlSetning="UPDATE studium SET studiumnavn'$studiumnavn' WHERE studiumkode='studiumkode';";
+    mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; endre data i databasen");
+                /* SQL-setning sendt til database-serveren */
+
+                print ("Emne med studiumkode $studiumkode er n&aring; endret");
+  }
+
   }
 
 ?>
