@@ -49,7 +49,7 @@ if (isset($_POST ["fortsett"]))
 
 else 
   {
-    $sqlSetning="UPDATE emne SET emnekode='$emnekode' WHERE studiumkode='$studiumkode';";
+    $sqlSetning="UPDATE emne SET emnenavn'$emnenavn' WHERE emnekode='emnekode';";
     mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; endre data i databasen");
                 /* SQL-setning sendt til database-serveren */
 
