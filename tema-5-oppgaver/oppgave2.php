@@ -1,3 +1,21 @@
+ <h3>Oppgave 2</h3>
+
+    <form
+      method="post"
+      action="tema-5-oppgaver/oppgave2.php"
+      id="oppgave2"
+      name="oppgave2"
+    >
+      Trykk fortsett for &aring; se tabell over studier og emner<br />
+
+      <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
+      <br />
+      <input type="reset" value="Nullstill" id="nullstill" name="nullstill" />
+      <br />
+
+      <br />
+    </form>
+
 <?php
 
 include("db-tilkobling.php");

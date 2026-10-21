@@ -1,3 +1,28 @@
+<h3>Oppgave 1</h3>
+
+    <form
+      method="post"
+      action="tema-5-oppgaver/oppgave1.php"
+      id="oppgave1"
+      name="oppgave1"
+    >
+      Skriv inn Studiekode og studiumnavn <br />
+      <input type="text" id="studiumkode" name="studiumkode" />
+      <input type="text" id="studiumnavn" name="studiumnavn" /><br />
+
+      Skriv inn emnekode, emnenavn og studiumkode <br />
+      <input type="text" id="emnekode" name="emnekode" />
+      <input type="text" id="emnenavn" name="emnenavn" />
+      <input type="text" id="studiumkode" name="studiumkode" /> <br />
+
+      <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
+      <br />
+      <input type="reset" value="Nullstill" id="nullstill" name="nullstill" />
+      <br />
+
+      <br />
+    </form>
+
 <?php 
   if (isset($_POST ["fortsett"]))
     {
