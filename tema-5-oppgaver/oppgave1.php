@@ -6,6 +6,8 @@
 
       $emnekode=$_POST ["emnekode"];
       $emnenavn=$_POST ["emnenavn"];
+      $studiumkode=$_POST ["studiumkode"];
+
   
 
     include("db-tilkobling.php"); /* tilkobling til database-serveren utført og valg av database foretatt */
