@@ -2,7 +2,7 @@
 
     <form
       method="post"
-      action="tema-5-oppgaver/oppgave1.php"
+      action=" "
       id="oppgave1"
       name="oppgave1"
     >
