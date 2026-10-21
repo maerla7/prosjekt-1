@@ -12,7 +12,7 @@ print ("<h3>Registrerte studier</h3>");
 print ("<table border=1>");
 print ("<tr> <th align=left>studiumkode</th> <th align=left>studiumnavn</th></tr>");
 
-for ($r=1;$r<$antallRader;$r++)
+for ($r=1;$r<=$antallRader;$r++)
   {
     $rad=mysqli_fetch_array($sqlResultat); 
     $studiumkode=$rad[0];
